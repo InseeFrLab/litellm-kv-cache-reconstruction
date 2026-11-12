@@ -1,0 +1,16 @@
+# Generated / intermediate data
+data_raw/*.csv
+v1/*.csv
+v1/*.png
+v1/*.bak
+v1/Per-instance*
+
+# Generated JSONL (keep only the validated replay_09h_09h20.jsonl)
+v1/replay_09h20_09h40.jsonl
+
+output/
+
+__pycache__/
+*.pyc
+.env
+.venv/
